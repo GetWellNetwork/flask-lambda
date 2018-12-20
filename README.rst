@@ -4,12 +4,11 @@ flask-lambda-support
 Write Flask applications that support being run in in AWS Lambda behind API Gateway.
 
 This project was forked from:
-https://github.com/techjacker/flask-lambda
+https://github.com/becloudway/flask-lambda
 
 Improvements:
 
-* Expose original input event from AWS on Flask's request object
-* Production-grade logging
+* Bug fixes
 
 
 Requirements
@@ -17,12 +16,6 @@ Requirements
 
 * Python 3.6+
 * Flask 0.10+
-
-
-Installation
-------------
-
-``pip install flask-lambda-support``
 
 
 Usage
